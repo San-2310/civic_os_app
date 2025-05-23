@@ -23,7 +23,7 @@ class SafetyCheckScreen extends StatelessWidget {
         'AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1',
       )
       ..loadRequest(Uri.parse(
-          'https://aa19-2401-4900-1727-dde2-fdf5-7576-b925-fb45.ngrok-free.app'));
+          'idhar women ka woh sms ke sath wala, is screen pe bhi notif ka icon hai for demo purpose'));
 
     return Scaffold(
       appBar: AppBar(
@@ -35,7 +35,18 @@ class SafetyCheckScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: WebViewWidget(controller: controller),
+      body: Expanded(
+        child: Container(
+          width: MediaQuery.of(context).size.width,
+          decoration: BoxDecoration(
+            border: Border.all(color: Colors.grey),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: WebViewWidget(
+            controller: controller,
+          ),
+        ),
+      ),
     );
   }
 }

@@ -16,7 +16,18 @@ class AreaSafetyMapScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(title: const Text('Area Safety Map')),
-      body: WebViewWidget(controller: controller),
+      body: Expanded(
+        child: Container(
+          width: MediaQuery.of(context).size.width,
+          decoration: BoxDecoration(
+            border: Border.all(color: Colors.grey),
+            borderRadius: BorderRadius.circular(8),
+          ),
+          child: WebViewWidget(
+            controller: controller,
+          ),
+        ),
+      ),
     );
   }
 }
