@@ -55,7 +55,7 @@ class _AmbulanceRegistrationScreenState
         'AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1',
       )
       ..loadRequest(Uri.parse(
-          'https://388f-2409-40c0-e-abe5-a1fa-6c06-156f-ec3.ngrok-free.app'));
+          'https://85a0-2401-4900-1727-dde2-d5b6-45f7-bb96-cea4.ngrok-free.app'));
 
     return Scaffold(
       appBar: AppBar(title: const Text('Ambulance Registration')),

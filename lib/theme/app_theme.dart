@@ -47,7 +47,7 @@ class AppTheme {
       style: ElevatedButton.styleFrom(
         backgroundColor: AppColors.primary,
         foregroundColor: AppColors.primaryForeground,
-        shape: RoundedRectangleBorder(
+        shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(12)),
         ),
         elevation: 2,
@@ -58,7 +58,7 @@ class AppTheme {
       filled: true,
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(12),
-        borderSide: BorderSide(color: AppColors.border),
+        borderSide: const BorderSide(color: AppColors.border),
       ),
     ),
   );
@@ -82,18 +82,18 @@ class AppTheme {
       style: ElevatedButton.styleFrom(
         backgroundColor: AppColors.primary,
         foregroundColor: AppColors.primaryForeground,
-        shape: RoundedRectangleBorder(
+        shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.all(Radius.circular(12)),
         ),
         elevation: 2,
       ),
     ),
     inputDecorationTheme: InputDecorationTheme(
-      fillColor: Color(0xFF2A2A2A),
+      fillColor: const Color(0xFF2A2A2A),
       filled: true,
       border: OutlineInputBorder(
         borderRadius: BorderRadius.circular(12),
-        borderSide: BorderSide(color: AppColors.muted),
+        borderSide: const BorderSide(color: AppColors.muted),
       ),
     ),
   );
