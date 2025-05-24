@@ -12,7 +12,8 @@ class AreaSafetyMapScreen extends StatelessWidget {
         'Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) '
         'AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1',
       )
-      ..loadRequest(Uri.parse('https://your-area-safety-map-url.com'));
+      ..loadRequest(Uri.parse(
+          'https://6af5-2401-4900-1727-dde2-c94a-802a-3d1d-b8e9.ngrok-free.app/'));
 
     return Scaffold(
       appBar: AppBar(title: const Text('Area Safety Map')),

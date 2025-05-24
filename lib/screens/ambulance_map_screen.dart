@@ -23,7 +23,7 @@ class AmbulanceMapScreen extends StatelessWidget {
         '(KHTML, like Gecko) Chrome/94.0.4606.61 Mobile Safari/537.36',
       )
       ..loadRequest(Uri.parse(
-          'https://0bd1-2401-4900-1727-dde2-352e-34a-63d2-4b12.ngrok-free.app'));
+          'https://388f-2409-40c0-e-abe5-a1fa-6c06-156f-ec3.ngrok-free.app'));
 
     return Scaffold(
       appBar: AppBar(
